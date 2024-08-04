@@ -42,6 +42,6 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(3001, '192.168.0.112', () => {
+server.listen(3001, '103.133.143.99', () => {
   console.log('listening on 103.133.143.99:3001');
 });
